@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+
+{% block title %} About{% endblock title %}
+{% block aboutactive %}  {% endblock aboutactive %}
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>   
+    <link href="heroes.css" rel="stylesheet"> 
+{%block body%} 
+<main>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold"> What is Coding ? </h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Coding, sometimes called computer programming, is how we communicate with computers. Code tells a 
+      computer what actions to take, and writing code is like creating a set of instructions. By learning to write code, you can 
+      tell computers what to do or how to behave in a much faster way. You can use this skill to make websites and apps, process 
+      data, and do lots of other cool things.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Like it</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Love it</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">iCoder-A Journey</h1>
+    <div class="col-lg-8 mx-auto">
+      <p class="lead mb-4">A computer programmer, sometimes called a software developer, a programmer or more recently a coder 
+      (especially in more informal contexts), is a person who creates computer software. The term computer programmer can refer 
+      to a specialist in one area of computers, or to a generalist who writes code for many kinds of software.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Begineer</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Advanced</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-3 fw-bold lh-1">It’s harder to read code than to write it.</h1>
+        <p class="lead">"If we wish to count lines of code, we should not regard them as ‘lines produced’ but as ‘lines spent.’ "— Edsger Dijkstra</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Like it</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Love it</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Blog-View</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">A blog (a truncation of "weblog") is a discussion or informational website published on the World Wide Web
+         consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological 
+         order, so that the most recent post appears first, at the top of the web page. Until 2009, blogs were usually the work of a single 
+         individual,[citation needed] occasionally of a small group, and often covered a single subject or topic.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a  href="/blog"  type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Check Blog</a>
+          <a  href="/"  type="button" class="btn btn-outline-light btn-lg px-4">Back To Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+</main>
+<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+{%endblock%}
